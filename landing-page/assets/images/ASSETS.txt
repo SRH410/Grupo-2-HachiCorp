@@ -1,0 +1,1 @@
+Ilustraciones SVG locales usadas como respaldo visual si las fotos remotas no cargan.

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650">
+    <defs>
+        <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+            <stop stop-color="#f0e9ff" />
+            <stop offset="1" stop-color="#e8f5dc" />
+        </linearGradient>
+        <linearGradient id="fur" x1="0" y1="0" x2="0" y2="1">
+            <stop stop-color="#e4b27c" />
+            <stop offset="1" stop-color="#bd8050" />
+        </linearGradient>
+    </defs>
+    <rect width="1000" height="650" rx="44" fill="url(#bg)" />
+    <circle cx="160" cy="120" r="78" fill="#cbd83b" opacity=".55" />
+    <circle cx="850" cy="150" r="100" fill="#a88aed" opacity=".28" />
+    <path d="M0 520 Q220 430 420 535 T1000 500 V650 H0Z" fill="#d7e9c8" />
+    <ellipse cx="360" cy="525" rx="220" ry="54" fill="#8d79bf" opacity=".15" />
+    <ellipse cx="690" cy="520" rx="190" ry="50" fill="#8d79bf" opacity=".15" />
+    <path d="M180 365 Q135 280 185 225 Q225 180 270 260 L300 310 Q360 270 420 305 Q470 335 450 430 L430 510 Q340 560 235 505Z" fill="url(#fur)" />
+    <path d="M200 290 Q155 220 194 190 Q233 170 265 254Z" fill="#9e653f" />
+    <path d="M385 286 Q437 218 458 255 Q472 291 422 333Z" fill="#9e653f" />
+    <ellipse cx="310" cy="390" rx="125" ry="112" fill="#f4d5b2" />
+    <ellipse cx="270" cy="370" rx="13" ry="18" fill="#333" />
+    <ellipse cx="350" cy="370" rx="13" ry="18" fill="#333" />
+    <ellipse cx="310" cy="413" rx="22" ry="15" fill="#333" />
+    <path d="M310 428 Q290 451 270 434 M310 428 Q330 451 350 434" fill="none" stroke="#333" stroke-width="7" stroke-linecap="round" />
+    <path d="M580 390 Q550 285 600 220 L640 295 Q700 245 750 300 L800 230 Q845 315 800 410 L785 500 Q690 555 600 500Z" fill="#7d8499" />
+    <path d="M600 265 L640 330 L610 355Z" fill="#e5a9b8" />
+    <path d="M780 270 L750 330 L785 350Z" fill="#e5a9b8" />
+    <ellipse cx="690" cy="390" rx="100" ry="92" fill="#f4f0e7" />
+    <ellipse cx="655" cy="375" rx="11" ry="15" fill="#333" />
+    <ellipse cx="725" cy="375" rx="11" ry="15" fill="#333" />
+    <path d="M680 402 Q690 390 700 402 Q690 416 680 402Z" fill="#333" />
+    <path d="M690 415 Q675 432 660 420 M690 415 Q705 432 720 420" fill="none" stroke="#333" stroke-width="5" stroke-linecap="round" />
+    <path d="M520 480 Q500 440 525 420 Q550 405 570 440" fill="none" stroke="#a88aed" stroke-width="22" stroke-linecap="round" />
+    <path d="M860 425 l14 26 29 4 -21 20 5 29 -27 -14 -26 14 5 -29 -21 -20 29 -4Z" fill="#cbd83b" />
+</svg>

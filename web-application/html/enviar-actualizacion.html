@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es-419">
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="#A88AED" name="theme-color"/>
+        <meta content="AmiPet, plataforma de adopción responsable de mascotas." name="description"/>
+        <title>
+            Enviar actualización post-adopción | AmiPet
+        </title>
+        <link href="../css/styles.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <a class="skip-link" href="#main-content">
+            Saltar al contenido
+        </a>
+        <header class="site-header">
+            <div class="container nav-wrap">
+                <a aria-label="AmiPet, ir al inicio" class="brand" href="panel-adoptante.html">
+                    <span aria-hidden="true" class="brand-mark">
+                        <svg viewBox="0 0 24 24">
+                            <ellipse cx="6.3" cy="7.2" rx="2.4" ry="3.1">
+                            </ellipse>
+                            <ellipse cx="11.7" cy="4.8" rx="2.4" ry="3.1">
+                            </ellipse>
+                            <ellipse cx="17.4" cy="7.1" rx="2.4" ry="3.1">
+                            </ellipse>
+                            <ellipse cx="20" cy="12" rx="2.1" ry="2.8">
+                            </ellipse>
+                            <path d="M12 10.2c-3.4 0-7.3 4.1-7.3 7.5 0 2.2 1.7 3.4 3.8 3.4 1.5 0 2.4-.7 3.5-.7s2 .7 3.5.7c2.1 0 3.8-1.2 3.8-3.4 0-3.4-3.9-7.5-7.3-7.5Z">
+                            </path>
+                        </svg>
+                    </span>
+                    <span>
+                        AmiPet
+                    </span>
+                </a>
+                <nav aria-label="Navegación principal" class="main-nav">
+                    <a href="panel-adoptante.html">
+                        Panel
+                    </a>
+                    <a href="mis-postulaciones.html">
+                        Mis postulaciones
+                    </a>
+                    <a href="enviar-actualizacion.html">
+                        Actualizaciones
+                    </a>
+                    <a href="recomendaciones-ia.html">
+                        Recomendaciones
+                    </a>
+                </nav>
+                <div class="nav-actions">
+                    <a aria-label="Switch to English" class="lang-switch" href="catalogo-en.html" lang="en-US">
+                        EN
+                    </a>
+                    <a class="btn btn-outline" href="login.html">
+                        Salir
+                    </a>
+                </div>
+            </div>
+        </header>
+        <main id="main-content">
+            <section class="container page-intro">
+                <h1>
+                    Enviar actualización post-adopción
+                </h1>
+                <p>
+                    Comparte una foto y un comentario sobre cómo se está adaptando tu mascota.
+                </p>
+            </section>
+            <section class="container page-content">
+                <div class="content-grid">
+                    <form action="panel-adoptante.html" class="panel form-stack" method="get">
+                        <div class="form-field">
+                            <label class="form-label" for="pet-update">
+                                Mascota adoptada
+                            </label>
+                            <select class="form-control" id="pet-update" name="mascota" required="">
+                                <option value="">
+                                    Selecciona una mascota
+                                </option>
+                                <option>
+                                    Luna
+                                </option>
+                                <option>
+                                    Milo
+                                </option>
+                            </select>
+                        </div>
+                        <div class="form-field">
+                            <label class="form-label" for="update-date">
+                                Fecha de actualización
+                            </label>
+                            <input class="form-control" id="update-date" name="fecha" required="" type="date"/>
+                        </div>
+                        <div class="form-field">
+                            <label class="form-label" for="update-photo">
+                                Fotografía (JPG o PNG, máximo 5 MB)
+                            </label>
+                            <input accept="image/png,image/jpeg" class="form-control" id="update-photo" name="foto" required="" type="file"/>
+                        </div>
+                        <div class="form-field">
+                            <label class="form-label" for="update-comment">
+                                Comentario
+                            </label>
+                            <textarea class="form-control" id="update-comment" name="comentario" placeholder="Cuéntanos cómo va la adaptación..." required=""></textarea>
+                        </div>
+                        <button class="btn btn-primary" type="submit">
+                            Enviar actualización
+                        </button>
+                    </form>
+                    <aside class="panel">
+                        <h2>
+                            ¿Qué puedes compartir?
+                        </h2>
+                        <ul class="check-list">
+                            <li>
+                                <span class="check-mark">
+                                    ✓
+                                </span>
+                                <span>
+                                    Adaptación al hogar y convivencia.
+                                </span>
+                            </li>
+                            <li>
+                                <span class="check-mark">
+                                    ✓
+                                </span>
+                                <span>
+                                    Rutinas, juegos y paseos.
+                                </span>
+                            </li>
+                            <li>
+                                <span class="check-mark">
+                                    ✓
+                                </span>
+                                <span>
+                                    Observaciones importantes para el rescatista.
+                                </span>
+                            </li>
+                        </ul>
+                        <p class="form-help">
+                            La carga real de archivos requiere la implementación del Sprint 2.
+                        </p>
+                    </aside>
+                </div>
+            </section>
+        </main>
+        <footer class="site-footer" id="redes">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-about">
+                        <a aria-label="AmiPet, ir al inicio" class="brand" href="index.html">
+                            <span aria-hidden="true" class="brand-mark">
+                                <svg viewBox="0 0 24 24">
+                                    <ellipse cx="6.3" cy="7.2" rx="2.4" ry="3.1">
+                                    </ellipse>
+                                    <ellipse cx="11.7" cy="4.8" rx="2.4" ry="3.1">
+                                    </ellipse>
+                                    <ellipse cx="17.4" cy="7.1" rx="2.4" ry="3.1">
+                                    </ellipse>
+                                    <ellipse cx="20" cy="12" rx="2.1" ry="2.8">
+                                    </ellipse>
+                                    <path d="M12 10.2c-3.4 0-7.3 4.1-7.3 7.5 0 2.2 1.7 3.4 3.8 3.4 1.5 0 2.4-.7 3.5-.7s2 .7 3.5.7c2.1 0 3.8-1.2 3.8-3.4 0-3.4-3.9-7.5-7.3-7.5Z">
+                                    </path>
+                                </svg>
+                            </span>
+                            <span>
+                                AmiPet
+                            </span>
+                        </a>
+                        <p>
+                            Plataforma de adopción responsable para conectar de forma segura a adoptantes y rescatistas.
+                        </p>
+                    </div>
+                    <div class="footer-col">
+                        <h3>
+                            Explora
+                        </h3>
+                        <nav aria-label="Enlaces para explorar" class="footer-links">
+                            <a href="catalogo.html">
+                                Mascotas disponibles
+                            </a>
+                            <a href="../../landing-page/html/index.html#como-funciona">
+                                Cómo funciona
+                            </a>
+                            <a href="quienes-somos.html">
+                                Quiénes somos
+                            </a>
+                        </nav>
+                    </div>
+                    <div class="footer-col">
+                        <h3>
+                            Ayuda y políticas
+                        </h3>
+                        <nav aria-label="Ayuda y políticas" class="footer-links">
+                            <a href="ayuda.html">
+                                Centro de ayuda
+                            </a>
+                            <a href="terminos.html">
+                                Términos y condiciones
+                            </a>
+                            <a href="privacidad.html">
+                                Política de privacidad
+                            </a>
+                            <a href="#redes">
+                                Redes sociales
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <span>
+                        © 2026 AmiPet. Todos los derechos reservados.
+                    </span>
+                    <span>
+                        Adoptando amor, salvando vidas.
+                    </span>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
